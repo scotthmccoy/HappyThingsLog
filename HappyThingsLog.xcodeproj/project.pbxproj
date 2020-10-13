@@ -13,6 +13,9 @@
 		577AADED2535246F00B8FDBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577AADEC2535246F00B8FDBA /* Preview Assets.xcassets */; };
 		577AADF82535246F00B8FDBA /* HappyThingsLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AADF72535246F00B8FDBA /* HappyThingsLogTests.swift */; };
 		577AAE032535246F00B8FDBA /* HappyThingsLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE022535246F00B8FDBA /* HappyThingsLogUITests.swift */; };
+		577AAE1D25352C7E00B8FDBA /* DateFormatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE1C25352C7E00B8FDBA /* DateFormatService.swift */; };
+		577AAE2525353A7500B8FDBA /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE2425353A7500B8FDBA /* DataStore.swift */; };
+		577AAE2A25353A9500B8FDBA /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE2925353A9500B8FDBA /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		577AADFE2535246F00B8FDBA /* HappyThingsLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyThingsLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		577AAE022535246F00B8FDBA /* HappyThingsLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyThingsLogUITests.swift; sourceTree = "<group>"; };
 		577AAE042535246F00B8FDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577AAE1C25352C7E00B8FDBA /* DateFormatService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatService.swift; sourceTree = "<group>"; };
+		577AAE2425353A7500B8FDBA /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		577AAE2925353A9500B8FDBA /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 			children = (
 				577AADE52535246C00B8FDBA /* HappyThingsLogApp.swift */,
 				577AADE72535246C00B8FDBA /* ContentView.swift */,
+				577AAE1B25352C7E00B8FDBA /* Model */,
 				577AADE92535246F00B8FDBA /* Assets.xcassets */,
 				577AADEE2535246F00B8FDBA /* Info.plist */,
 				577AADEB2535246F00B8FDBA /* Preview Content */,
@@ -128,6 +135,16 @@
 				577AAE042535246F00B8FDBA /* Info.plist */,
 			);
 			path = HappyThingsLogUITests;
+			sourceTree = "<group>";
+		};
+		577AAE1B25352C7E00B8FDBA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				577AAE1C25352C7E00B8FDBA /* DateFormatService.swift */,
+				577AAE2425353A7500B8FDBA /* DataStore.swift */,
+				577AAE2925353A9500B8FDBA /* Entry.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577AAE2A25353A9500B8FDBA /* Entry.swift in Sources */,
 				577AADE82535246C00B8FDBA /* ContentView.swift in Sources */,
+				577AAE2525353A7500B8FDBA /* DataStore.swift in Sources */,
+				577AAE1D25352C7E00B8FDBA /* DateFormatService.swift in Sources */,
 				577AADE62535246C00B8FDBA /* HappyThingsLogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

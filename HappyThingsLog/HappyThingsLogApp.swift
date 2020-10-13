@@ -11,7 +11,7 @@ import SwiftUI
 struct HappyThingsLogApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(entries: DataStore.entries)
         }
     }
 }
