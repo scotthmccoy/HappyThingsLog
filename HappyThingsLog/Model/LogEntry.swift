@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Entry:Identifiable {
+struct LogEntry:Identifiable {
     let id = UUID()
     var date:Date
     var text:String

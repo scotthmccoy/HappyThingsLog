@@ -15,7 +15,7 @@
 		577AAE032535246F00B8FDBA /* HappyThingsLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE022535246F00B8FDBA /* HappyThingsLogUITests.swift */; };
 		577AAE1D25352C7E00B8FDBA /* DateFormatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE1C25352C7E00B8FDBA /* DateFormatService.swift */; };
 		577AAE2525353A7500B8FDBA /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE2425353A7500B8FDBA /* DataStore.swift */; };
-		577AAE2A25353A9500B8FDBA /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE2925353A9500B8FDBA /* Entry.swift */; };
+		577AAE2A25353A9500B8FDBA /* LogEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577AAE2925353A9500B8FDBA /* LogEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		577AAE042535246F00B8FDBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		577AAE1C25352C7E00B8FDBA /* DateFormatService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatService.swift; sourceTree = "<group>"; };
 		577AAE2425353A7500B8FDBA /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		577AAE2925353A9500B8FDBA /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		577AAE2925353A9500B8FDBA /* LogEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +142,7 @@
 			children = (
 				577AAE1C25352C7E00B8FDBA /* DateFormatService.swift */,
 				577AAE2425353A7500B8FDBA /* DataStore.swift */,
-				577AAE2925353A9500B8FDBA /* Entry.swift */,
+				577AAE2925353A9500B8FDBA /* LogEntry.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577AAE2A25353A9500B8FDBA /* Entry.swift in Sources */,
+				577AAE2A25353A9500B8FDBA /* LogEntry.swift in Sources */,
 				577AADE82535246C00B8FDBA /* ContentView.swift in Sources */,
 				577AAE2525353A7500B8FDBA /* DataStore.swift in Sources */,
 				577AAE1D25352C7E00B8FDBA /* DateFormatService.swift in Sources */,

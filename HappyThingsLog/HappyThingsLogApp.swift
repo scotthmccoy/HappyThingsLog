@@ -15,3 +15,9 @@ struct HappyThingsLogApp: App {
         }
     }
 }
+
+struct HappyThingsLogApp_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(entries: DataStore.entries)
+    }
+}
